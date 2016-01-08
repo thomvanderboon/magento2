@@ -1,4 +1,4 @@
-"--Please Select--","--Please Select--"
+"-- Please Select --","-- Please Select --"
 Enabled,Enabled
 label,label
 State/Province,State/Province
@@ -14,7 +14,6 @@ WARNING:,WARNING:
 "Please correct the country code: %1.","Please correct the country code: %1."
 "Country and Format Type combination should be unique","Country and Format Type combination should be unique"
 "Please correct the rates received","Please correct the rates received"
-"--Please select--","--Please select--"
 "Your current currency is: %1.","Your current currency is: %1."
 "Start Time","Start Time"
 Frequency,Frequency

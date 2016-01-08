@@ -60,11 +60,11 @@ class CountryTest extends \PHPUnit_Framework_TestCase
     {
         return [
             [true, 'US', []],
-            [false, 'US', [['value' => '', 'label' => __('--Please Select--')]]],
+            [false, 'US', [['value' => '', 'label' => __('-- Please Select --')]]],
             [true, '', []],
-            [false, '', [['value' => '', 'label' => __('--Please Select--')]]],
+            [false, '', [['value' => '', 'label' => __('-- Please Select --')]]],
             [true, ['US', 'CA'], []],
-            [false, ['US', 'CA'], [['value' => '', 'label' => __('--Please Select--')]]]
+            [false, ['US', 'CA'], [['value' => '', 'label' => __('-- Please Select --')]]]
         ];
     }
 }

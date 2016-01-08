@@ -46,7 +46,7 @@ $content = '<img src=\"' . $block->getViewFileUrl('Magento_Checkout::cvv.png') .
                             required:true,
                             "validate-cc-type-select":"#<?php /* @noEscape */ echo $code; ?>_cc_number"
                         }'>
-                    <option value=""><?php echo $block->escapeHtml(__('--Please Select--'));?></option>
+                    <option value=""><?php echo $block->escapeHtml(__('-- Please Select --'));?></option>
                 <?php foreach ($block->getCcAvailableTypes() as $typeCode => $typeName): ?>
                     <option value="<?php echo $block->escapeHtml($typeCode); ?>"
                         <?php if ($typeCode == $ccType): ?> selected="selected"<?php endif; ?>>

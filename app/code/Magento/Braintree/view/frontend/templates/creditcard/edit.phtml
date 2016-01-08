@@ -103,7 +103,7 @@ $serializedFormData = $this->helper('Magento\Framework\Json\Helper\Data')->jsonE
             <div class="control">
                 <select name="credit_card_type" id="credit_card_type" data-container="credit_card_type"
                         data-validate='{required:true, "validate-cc-type-select":"#credit_card_number"}'>
-                    <option value=""><?php echo $block->escapeHtml(__('--Please Select--')); ?></option>
+                    <option value=""><?php echo $block->escapeHtml(__('-- Please Select --')); ?></option>
                     <?php foreach ($block->getCcAvailableTypes() as $typeCode => $typeName): ?>
                         <option value="<?php echo $block->escapeHtml($typeCode); ?>"
                             <?php if (stripos($typeName, $defaultCcType) !== false): ?> selected="selected"<?php endif; ?>>

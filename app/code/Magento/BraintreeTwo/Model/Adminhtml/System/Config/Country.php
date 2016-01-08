@@ -73,7 +73,7 @@ class Country implements ArrayInterface
 
         $options = $this->options;
         if (!$isMultiselect) {
-            array_unshift($options, ['value' => '', 'label' => __('--Please Select--')]);
+            array_unshift($options, ['value' => '', 'label' => __('-- Please Select --')]);
         }
 
         return $options;

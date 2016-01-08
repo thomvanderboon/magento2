@@ -83,7 +83,7 @@ class CountryTest extends \PHPUnit_Framework_TestCase
         ];
         $this->initCountryCollectionMock($countries);
 
-        $header = ['value' => '', 'label' => new Phrase('--Please Select--')];
+        $header = ['value' => '', 'label' => new Phrase('-- Please Select --')];
         array_unshift($countries, $header);
 
         $this->assertEquals($countries, $this->model->toOptionArray());

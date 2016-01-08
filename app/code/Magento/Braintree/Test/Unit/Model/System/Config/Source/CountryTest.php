@@ -100,7 +100,7 @@ class CountryTest extends \PHPUnit_Framework_TestCase
             ->method('toOptionArray')
             ->willReturn($countries);
 
-        $header = ['value'=>'', 'label'=> new \Magento\Framework\Phrase('--Please Select--')];
+        $header = ['value'=>'', 'label'=> new \Magento\Framework\Phrase('-- Please Select --')];
         array_unshift($countries, $header);
 
         $this->assertEquals($countries, $this->model->toOptionArray());

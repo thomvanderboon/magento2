@@ -42,7 +42,7 @@ class BuyerCountry implements \Magento\Framework\Option\ArrayInterface
             $supported,
             'iso2'
         )->loadData()->toOptionArray(
-            $isMultiselect ? false : __('--Please Select--')
+            $isMultiselect ? false : __('-- Please Select --')
         );
 
         return $options;

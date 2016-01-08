@@ -48,7 +48,7 @@ class Country implements \Magento\Framework\Option\ArrayInterface
 
         $options = $this->_options;
         if (!$isMultiselect) {
-            array_unshift($options, ['value' => '', 'label' => __('--Please Select--')]);
+            array_unshift($options, ['value' => '', 'label' => __('-- Please Select --')]);
         }
 
         return $options;
