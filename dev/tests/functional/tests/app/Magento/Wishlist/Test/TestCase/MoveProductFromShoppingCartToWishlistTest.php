@@ -18,7 +18,7 @@ use Magento\Mtf\Fixture\FixtureInterface;
  * Steps:
  * 1. Add product to Shopping Cart.
  * 2. Call AssertAddProductToCartSuccessMessage.
- * 2. Click 'Move to Wishlist' button from Shopping Cart for added product.
+ * 2. Click 'Move to Wish List' button from Shopping Cart for added product.
  * 3. Perform asserts.
  *
  * @group Shopping_Cart_(CS)

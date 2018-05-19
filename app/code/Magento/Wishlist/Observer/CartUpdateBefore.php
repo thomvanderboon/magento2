@@ -74,7 +74,7 @@ class CartUpdateBefore implements ObserverInterface
         }
 
         /**
-         * Collect product ids marked for move to wishlist
+         * Collect product ids marked for move to wish list
          */
         foreach ($data as $itemId => $itemInfo) {
             if (!empty($itemInfo['wishlist']) && ($item = $cart->getQuote()->getItemById($itemId))) {
